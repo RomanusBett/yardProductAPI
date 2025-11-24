@@ -32,9 +32,6 @@ build/
 ### VS Code ###
 .vscode/
 
-<<<<<<< HEAD
 /resources/**
 
-=======
->>>>>>> 5f2e735 (project setup)
 .DS_Store
