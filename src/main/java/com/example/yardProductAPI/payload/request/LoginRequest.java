@@ -26,6 +26,10 @@ public class LoginRequest {
         return email;
     }
 
+    public String getRole(String role) {
+        return role;
+    }
+
     public void setPassword(String password) {
         this.password = password;
     }

@@ -53,7 +53,7 @@ public class AuthController {
     private JwtUtils jwtUtils;
 
  
-
+    @CrossOrigin(origins = "http://localhost:4200") 
     @PostMapping("/signin")
     public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginRequest loginRequest) {
 
@@ -86,6 +86,7 @@ public class AuthController {
         );
     }
 
+    @CrossOrigin(origins = "http://localhost:4200") 
     @PostMapping("/signup")
     public ResponseEntity<?> registerUser(@Valid @RequestBody SignupRequest signUpRequest) {
 
